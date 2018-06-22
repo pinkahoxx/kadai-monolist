@@ -26,7 +26,7 @@
                         {!! Form::label('password_confirmation', 'パスワード（確認）') !!}
                         {!! Form::password('password_confirmation', ['class' => 'form-control']) !!}
                     </div>
-                   <div class="text-right">
+                        <div class="text-right">
                         {!! Form::submit('登録する', ['class' => 'btn btn-success']) !!}
                     </div>
                 {!! Form::close() !!}
@@ -34,4 +34,4 @@
         </div>
     </div>
 </div>
-@endsection    
+@endsection
